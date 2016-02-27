@@ -21,9 +21,9 @@ or add
 
 to the require section of your application's `composer.json` file.
 
-Usage as component
+Usage
 -----
-Add to app config, in section "components"
+For usage as component - add to app config, in section "components"
 ```php
  'minifyManager' => [
             'class' => 'maybeworks\minify\MinifyManager',
