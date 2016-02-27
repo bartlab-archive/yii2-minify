@@ -23,14 +23,20 @@ to the require section of your application's `composer.json` file.
 
 Usage
 -----
-For usage as component - add to app config, in section "components"
+For usage as component - add to app config
 ```php
- 'minifyManager' => [
+'components'=>[
+     'minifyManager' => [
             'class' => 'maybeworks\minify\MinifyManager',
             'html' => !YII_DEBUG,
             'css' => !YII_DEBUG,
             'js' => !YII_DEBUG,
-        ],
+     ]
+]
+
+'bootstrap' => [
+     'minifyManager'
+],
 ```
 
 or use manual
