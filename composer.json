@@ -1,0 +1,22 @@
+{
+    "name": "maybeworks/yii2-minify",
+    "description": "Minify helper and component for Yii PHP framework 2.0",
+    "keywords": ["yii", "extension", "component", "helper", "minify"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "B@RT",
+            "email": "bart@maybeworks.com",
+            "homepage": "http://maybe.works"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "maybeworks\\libs\\": ""
+        }
+    }
+}
